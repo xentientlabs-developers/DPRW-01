@@ -1,0 +1,75 @@
+/* Google Fonts */
+@import url(http://fonts.googleapis.com/css?family=Lobster+Two);
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+body {
+	padding-top: 70px;
+	padding-bottom: 100px;
+	font-family: 'Lato', sans serif;
+}
+
+h1 {
+  font-family: 'Lobster Two', cursive;
+	font-weight: bold;
+}
+
+h2, h3, h4, h5, h6 {
+	font-family: 'Oswald', sans serif;
+	color:black;
+	}
+
+/* Navbar */
+.navbar-default {
+	background-color: #C1ECF6;
+}
+
+.navbar-default .navbar-brand  {
+	font-family: 'Lobster Two', cursive;
+	font-size: 295%;
+	color: #20859D;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+	color: #FD3D2E;
+}
+
+.navbar-header img {
+	float: left;
+	padding: .75em;
+	height: 50px;
+	width: 100px;
+}
+
+/* Carousel */
+.carousel-inner img {
+  width: 100%; 
+  margin: auto;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+		.carousel-caption {
+		display: none;
+    }
+  }
+
+/* Footer */
+.logo {
+	padding: 1em;
+}
+
+
+
+
+	
+
+
+
+
+	
+
+
+	
+
