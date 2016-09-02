@@ -1,77 +1,93 @@
-/* GLOBAL STYLES
--------------------------------------------------- */
+/* Color Palette */
+
+.color-0-0, .hummingbird	{ color:#C1ECF6 }
+.color-0-1, .cornflower 		{ color:#8BD4E5 }
+.color-0-2, .jellyBean		{ color:#20859D }
+
+.color-1-0, .yourPink			{ color:#FFCBC7 }
+.color-1-1, .monaLisa  		{ color:#FF9F98 }
+.color-1-2, .redOrange		{ color:#FD3D2E }
+
 
 /* Google Fonts */
+
 @import url(http://fonts.googleapis.com/css?family=Lobster+Two);
 @import url(http://fonts.googleapis.com/css?family=Oswald);
 @import url(http://fonts.googleapis.com/css?family=Lato);
 
+
+/* Styles */
+
+html,body{
+		height: 100%;
+  	line-height: 1.3em;
+		font-family: 'Lato', sans serif;
+		font-size: 1em;
+		margin-bottom: 2em;
+}
+
 h1 {
 	font-family: 'Lobster Two', cursive;
+	font-size: 2.5em;
 }
 
 h2,h3,h4,h5,h6 {
 	font-family: 'Oswald', sans serif;
-	padding: 1rem;
 	font-size: 1.75em;
-}
-
-body {
-	margin-bottom: 2em;
-	font-family: 'Lato', sans serif;
-	font-size: 1em;	
+	font-weight: 700;
 }
 
 /* Nav Bar */
-nav  {
-	border: #20859D solid 3px;
-	margin: 0;
+
+.mainNav {
+	background-color: #C1ECF6; /* Hummingbird */
 }
 
 .navbar-brand {
 	font-family: 'Lobster Two', cursive;
-	font-size: 2.25em;
-	font-weight: bold;
-	text-transform: uppercase;
-	padding-right: 2.75em;
+	padding: .5rem;
+	text-shadow: 2px 2px white;
+	color: #20859D;	/* Jelly Bean */
+	font-weight: 800;
 }
 
 .navbar-toggler {
 	font-size: 2em;
 }
  
+ .btn {
+	 margin-left: .25rem;
+	 margin-top: .25rem;
+ }
+ 
 .nav-link {
 	font-family: 'Oswald', sans serif;
-	padding-top: .5rem;
-	padding-right: 1.5rem;
-	font-size: 1.85em;
-	font-weight: 700;
+	margin: 1rem;
+	font-size: 2em;
+	padding: 2rem;
+	text-shadow: 1px 1px white;
 }
 
-.navbar .navbar-default .navbar-brand a:hover,
-.navbar .navbar-default .navbar-brand a:focus {
-	color: #FD3D2E;
+a {
+	color: #FF9F98; /* Mona Lisa */
 }
 
 form {
-	padding-top: 1.2em;
+	padding-top: 1.5rem;
 }	
 
+.listNav {
+	margin: .5em;
+	padding: .5rem;
+}
 
-/* Carousel base class */
+/* Carousel */
 .carousel {
-  margin: 2rem 0;
+  margin: 1rem 0;
 }
 	
-/* Since positioning the image, we need to help out the caption 
-.carousel-caption {
-  z-index: 5;
-}
-
-/* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 26rem;
-  background-color: #777;
+  height: 42rem;
 }
 
 .carousel-item > img {
@@ -79,11 +95,7 @@ form {
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 26rem;
-}
-
-h2.carousel-header {
-	color: #FF9F98;
+  height: 20rem;
 }
 
 .carousel-indicators {
@@ -99,19 +111,26 @@ h2.carousel-header {
   margin-bottom: .25rem;
 }
 
-/* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
-  margin-bottom: 1.5rem;
-  text-align: center;
+
+/* Cards */
+.card {
+	margin-top: 2rem;
+	padding: 1.5rem;
+	background-color: #FFCBC7; /* Your Pink */
+	font-weight: 600;
+	font-size: 1em;
 }
 
-.marketing h2 {
-  font-weight: normal;
+.card-title {
+	color: #FD3D2E; /* Red Orange */
+	font-weight: 700;
+	text-shadow: 1px 2px white;
+	font-size: 3em;
 }
 
-.marketing .col-lg-4 p {
-  margin-right: .75rem;
-  margin-left: .75rem;
+.card h5 {
+	color: #20859D; /* Jelly Bean */
+	text-shadow: 1px 1px white;
 }
 
 
@@ -122,15 +141,16 @@ h2.carousel-header {
 
 /* Testimonials/Social Media Feed */
 
+
+
+
 /* Footer */
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 1em;
-  line-height: 1em; /* Vertically center the text there */
+.footerBar {
+	margin-top: 2em;
+	background-color: #20859D; /* Jelly Bean */
+	padding: 2rem 1rem;
 }
+
 
 /* RESPONSIVE CSS -- Still in progress 
 
