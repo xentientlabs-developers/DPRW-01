@@ -1,0 +1,193 @@
+/* Color Palette */
+
+.color-0-0, .hummingbird	{ color:#C1ECF6 }
+.color-0-1, .cornflower 		{ color:#8BD4E5 }
+.color-0-2, .jellyBean		{ color:#20859D }
+
+.color-1-0, .yourPink			{ color:#FFCBC7 }
+.color-1-1, .monaLisa  		{ color:#FF9F98 }
+.color-1-2, .redOrange		{ color:#FD3D2E }
+
+
+/* Google Fonts */
+
+@import url(http://fonts.googleapis.com/css?family=Lobster+Two);
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+
+/* Styles */
+
+html,body{
+		height: 100%;
+  	line-height: 1.3em;
+		font-family: 'Lato', sans serif;
+		font-size: 1em;
+		margin-bottom: 2em;
+}
+
+h1 {
+	font-family: 'Lobster Two', cursive;
+	font-size: 2.5em;
+}
+
+h2,h3,h4,h5,h6 {
+	font-family: 'Oswald', sans serif;
+	font-size: 1.75em;
+	font-weight: 700;
+}
+
+/* Nav Bar */
+
+.mainNav {
+	background-color: #C1ECF6; /* Hummingbird */
+}
+
+.navbar-brand {
+	font-family: 'Lobster Two', cursive;
+	padding: .5rem;
+	text-shadow: 2px 2px white;
+	color: #20859D;	/* Jelly Bean */
+	font-weight: 800;
+}
+
+.navbar-toggler {
+	font-size: 2em;
+}
+ 
+ .btn {
+	 margin-left: .25rem;
+	 margin-top: .25rem;
+ }
+ 
+.nav-link {
+	font-family: 'Oswald', sans serif;
+	margin: 1rem;
+	font-size: 2em;
+	padding: 2rem;
+	text-shadow: 1px 1px white;
+}
+
+a {
+	color: #FF9F98; /* Mona Lisa */
+}
+
+form {
+	padding-top: 1.5rem;
+}	
+
+.listNav {
+	margin: .5em;
+	padding: .5rem;
+}
+
+/* Carousel */
+.carousel {
+  margin: 1rem 0;
+}
+	
+.carousel-item {
+  height: 42rem;
+}
+
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 20rem;
+}
+
+.carousel-indicators {
+  top: 1.5rem;
+  right: 1.5rem;
+  bottom: auto;
+  left: auto;
+  width: 1rem;
+  margin-left: 0;
+}
+
+.carousel-indicators > li {
+  margin-bottom: .25rem;
+}
+
+
+/* Cards */
+.card {
+	margin-top: 2rem;
+	padding: 1.5rem;
+	background-color: #FFCBC7; /* Your Pink */
+	font-weight: 600;
+	font-size: 1em;
+}
+
+.card-title {
+	color: #FD3D2E; /* Red Orange */
+	font-weight: 700;
+	text-shadow: 1px 2px white;
+	font-size: 3em;
+}
+
+.card h5 {
+	color: #20859D; /* Jelly Bean */
+	text-shadow: 1px 1px white;
+}
+
+
+/* Geolocation Map */
+
+
+
+
+/* Testimonials/Social Media Feed */
+
+
+
+
+/* Footer */
+.footerBar {
+	margin-top: 2em;
+	background-color: #20859D; /* Jelly Bean */
+	padding: 2rem 1rem;
+}
+
+
+/* RESPONSIVE CSS -- Still in progress 
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content 
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}   */
+
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 28px;
+  }
+}
